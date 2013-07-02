@@ -16,7 +16,7 @@ vagrant plugin install vagrant-librarian-chef
 
 ## Usage
 
-Vagrant will automatically run Librarian-Chef before any provisioning step, so
+Vagrant will automatically install and run Librarian-Chef on the guest machine before any provisioning step, so
 simply set up your Cheffile as you normally would.
 
 You may specify the subdirectory within which to run `librarian-chef`
